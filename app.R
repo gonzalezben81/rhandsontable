@@ -36,7 +36,7 @@ ui<- fluidPage(
       )),
   mainPanel(id = "null",
             tabsetPanel(
-              tabPanel(title = "Data Editor:", rHandsontableOutput("data"),width ="auto"),
+              tabPanel(title = "Data Editor:", rHandsontableOutput("data"),width =100%),
               tabPanel(title = "Data Viewer:", DT::dataTableOutput("data2"))
             
   )))
